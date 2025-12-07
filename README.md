@@ -6,9 +6,13 @@ The system follows an Event-Driven Architecture, where the Task Service publishe
 📌 Microservices Included
 
 1️⃣ User Service
+
 Handles
+
 -> User registration
+
 -> Fetching user details
+
 -> Stores user data in MongoDB
 
 2️⃣ Task Service (Producer)
