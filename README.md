@@ -6,7 +6,6 @@ The system follows event-driven architecture where the Task Service sends events
 
 
 🛠 Tech Used
-
 Node.js
 
 Express
