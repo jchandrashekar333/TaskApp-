@@ -4,14 +4,12 @@ A simple microservices-based Task Management System using Node.js, Express, Mong
 The system follows event-driven architecture where the Task Service sends events and the Notification Service consumes them.
 
 
+-> Services Ports
 
-🛠 Tech Used
-Node.js
-
-Express
-
-MongoDB + Mongoose
-
-RabbitMQ
-
-Docker & Docker Compose
+| Service              | Port  |
+| -------------------- | ----- |
+| User Service         | 5000  |
+| Task Service         | 5001  |
+| Notification Service | 5002  |
+| RabbitMQ             | 5672  |
+| RabbitMQ UI          | 15672 |
