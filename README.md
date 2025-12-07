@@ -1,4 +1,4 @@
--------------------------------------------------------------Task Management Microservices Application ----------------------------------------------------------------------
+-------------------------------------------------------------Task Management Microservices Application -----------------------------------------------
 
 A fully containerized microservices-based Task Management System built using Node.js, Express, MongoDB, RabbitMQ, and Docker.
 The system uses an event-driven architecture, where the Task Service produces messages and the Notification Service consumes them through RabbitMQ.
